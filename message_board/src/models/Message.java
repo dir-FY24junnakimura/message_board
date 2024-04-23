@@ -56,11 +56,15 @@ public class Message {
         return content;
     }
     
+    public void setContent(String content) {
+        this.content = content;
+    }
+    
     public Timestamp getCreated_at() {
         return created_at;
     }
     
-    public void setCreated_at(Timestamp created_a) {
+    public void setCreated_at(Timestamp created_at) {
         this.created_at = created_at;
     }
     
